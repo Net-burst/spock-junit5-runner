@@ -10,7 +10,7 @@ class SpockExtension extends AbstractGlobalExtension {
 
     @Override
     void visitSpec(SpecInfo spec) {
-        println "Spock extension start visitSpec $spec.name"
+        println "Spock extension visitSpec $spec.name"
     }
 
     @Override
